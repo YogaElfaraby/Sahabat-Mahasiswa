@@ -8,85 +8,122 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+  <div class="container-fluid">
     <div class="banner">
+      <div class="navbar fixed-top bg-body-tertiary">
         <div class="navbar">
-            <img src="Logo Panjang.png" class="Logo">
-            <ul>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Sign Up</a></li>
-            </ul>
+          <img src="resource/Logo Panjang.png" class="img-fluid" width="15%">
+          <ul>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Sign Up</a></li>
+          </ul>
         </div>
+      </div>
     </div>
+  </div>
 
+  <div class="container-fluid">
     <div class="content">
-        <div class="description">
-            <h2>Welcome to Our Website</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                <br>Sed non risus. Suspendisse lectus tortor, dignissim sit amet, 
-                <br>adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.
-            </p>
-        </div>
+      <div class="description">
+          <h2>Welcome to Our Website</h2>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              <br>Sed non risus. Suspendisse lectus tortor, dignissim sit amet, 
+              <br>adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.
+          </p>
+      </div>
     </div>
+  </div>
+  
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="resource/carousel1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <div id="carouselExampleDark" class="carousel carousel-dark slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        
+        <div class="carousel-item active">
+          <img src="resource/carousel1.jpg" class="d-block w-50">
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="carousel1.jpg" class="d-block w-50" >
-            <div class="carousel-caption d-none d-md-block">
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="carousel2.jpg" class="d-block w-50" >
-            <div class="carousel-caption d-none d-md-block">
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="carousel3.jpg" class="d-block w-50" >
-            <div class="carousel-caption d-none d-md-block">
-            </div>
-          </div>
+        <div class="carousel-item">
+          <img src="resource/carousel2.jpg" class="d-block w-50">
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item">
+          <img src="resource/carousel3.jpg" class="d-block w-50">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+    <footer>
+
 
     <footer>
 
         <div class="footer-content">
           <div class="footer-section about">
-            <img class="footer-logo" src="Logo Panjang.png" width="100%">
+            <img class="footer-logo" src="resource/Logo Panjang.png" class="img-fluid" width="100%">
             <p>We are a passionate team dedicated to providing the best services and products.</p>
       
-            <ul class="social-icons">
+            <ul class="social-icons" class="img-fluid">
 
                 <li>
-                  <img src="facebook.png"> 
+                  <img src="resource/facebook.png"> 
                   <a href="https://www.facebook.com/telkomuniversity" target="_blank">
                     SahabatMahasiswa.id
                   </a>
                 </li>
               
                 <li>
-                  <img src="instagram.png">
+                  <img src="resource/instagram.png">
                   <a href="https://www.instagram.com/telkomuniversity/S" target="_blank">
                     SahabatMahasiswa.id
                   </a>
                 </li>
               
                 <li>
-                  <img src="Maps.png">  
+                  <img src="resource/Maps.png">  
                   <a href="https://www.google.com/maps/d/u/0/viewer?mid=1Q_nXRMr-xu41sCLD1OKjX72KSmA&ll=-6.972809433104286%2C107.63522875140588&z=17" target="_blank">
                     Alamat Telkom University
                   </a>
