@@ -10,6 +10,7 @@ body{
     opacity: 1;
     overflow-y: scroll;
     margin: 0;
+    background-color: #fff;
 }
 
 a{
@@ -163,3 +164,8 @@ a.sidebar-link{
         width: 100vw;
     }
 }
+
+#calendar{
+    margin  : auto;
+}
+
