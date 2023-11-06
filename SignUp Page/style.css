@@ -68,14 +68,16 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-button {
+.form-control{
+    border-radius: 10px; 
+}
+.btn-primary{
     width: 100%; 
     padding: 10px;
     background-color: #4B69FF;
     color: #fff;
     border: none;
-    border-radius: 5px; 
+    border-radius: 100px; 
     cursor: pointer;
     margin-top: 15px;
 }
