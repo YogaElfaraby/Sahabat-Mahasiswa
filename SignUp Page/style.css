@@ -9,16 +9,19 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(background.jpg);
     background-size: cover;
     background-position: center;
+
   }
 
 .navbar {
-    width: 80%;
-    margin: auto;
-    padding: 10px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid #ccc;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  transform: translateY(-25%);
+  padding: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
 }
 
 .navbar ul {
